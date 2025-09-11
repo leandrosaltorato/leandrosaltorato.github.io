@@ -78,7 +78,12 @@ section{
 }
 
 .container{
-    max-width: 600px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.containerr{
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -148,7 +153,7 @@ h2{
     gap: 1rem;
 }
 
-.skill{
+.skills{
     display: flex;
     align-items: center;
     background: radial-gradient(circle, rgb(36, 90, 77) 0%, rgb(35, 85, 104) 100%);
@@ -159,23 +164,7 @@ h2{
     transition: all 0.25s;
 }
 
-.skill:hover{
-    transform: translateY(-5px);
-}
 
-.skill i{
-    font-size: 2rem;
-    color: white;
-}
-
-.skill h3{
-    color: rgba(247, 245, 245, 0.7);
-    margin-bottom: 0.25rem;
-}
-
-.skill p{
-    color: rgb(247, 226, 226);
-}
 
 footer {
   background-color: #2c4550; 
@@ -196,4 +185,21 @@ footer a {
 
 footer a:hover {
   color: #1255f3; 
+}
+
+.foto-d-perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit:cover;
+    border: 4px solid #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, 0.25s linear;
+}
+
+.foto-d-perfil:hover{
+    transform: scale(1.3);
+    box-shadow: 0 16px 32px rgba(0,0,0,0.2);
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 10px 5px rgb(15, 58, 62);
 }
